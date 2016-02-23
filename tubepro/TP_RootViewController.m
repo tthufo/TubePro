@@ -14,6 +14,7 @@
 
 #import "TP_Third_ViewController.h"
 
+#import "TP_Fourth_ViewController.h"
 
 @interface TP_RootViewController ()
 
@@ -48,7 +49,13 @@
                                     initWithRootViewController:third];
     nav3.tabBarItem.image = [UIImage imageNamed:@"favs"];
     
-    self.viewControllers = @[nav1, nav2, nav3];
+    TP_Fourth_ViewController * fourth = [TP_Fourth_ViewController new];
+    fourth.title = @"Settings";
+    UINavigationController *nav4 = [[UINavigationController alloc]
+                                    initWithRootViewController:fourth];
+    nav4.tabBarItem.image = [UIImage imageNamed:@"setting"];
+    
+    self.viewControllers = @[nav1, nav2, nav3, nav4];
 }
 
 - (void)didReceiveMemoryWarning

@@ -19,11 +19,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>DAKeyboardControl.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>FBPLUGIN-FBPLUGIN.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -64,11 +59,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>NSDate+TimeAgo.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -94,12 +84,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIActivityIndicator-for-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>XBExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>XCDYouTubeKit.xcscheme</key>
+		<key>hpple.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -107,7 +102,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>13C0548F87978E770BF07D80F168F666</key>
+		<key>17935F72D982278750F1077DF5480AA9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -117,7 +112,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38DD267733183C5B2FD482522E1C5462</key>
+		<key>288BC6BD7C868723E7C45202A9DF0BB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -128,11 +123,6 @@
 			<true/>
 		</dict>
 		<key>677BE0EAB5D42ACE6E1C2308C1DEDFB4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6B03B89D76DF5FBF0BB098F81F09D7EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -148,11 +138,6 @@
 			<true/>
 		</dict>
 		<key>880584D1DAAA106CC0FBC1F6267D3E6B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>986C0260BCD428869C901DA71AA4F28B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -177,7 +162,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C470128DF57A4F328C01D61E397D7745</key>
+		<key>B61F6B4BBA23C006B15F3B17A96116AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA250BDE05647A8E5AE0B5FB0421E3CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

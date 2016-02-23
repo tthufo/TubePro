@@ -10,6 +10,8 @@
 
 #import "TP_RootViewController.h"
 
+//#import "Branch.h"
+
 @interface AppDelegate ()
 
 @end
@@ -21,12 +23,32 @@
     
     [[LTRequest sharedInstance] initRequest];
     
+//    Branch *branch = [Branch getInstance];
+    
+//    [branch initSessionWithLaunchOptions:launchOptions andRegisterDeepLinkHandler:^(NSDictionary *params, NSError *error) {
+//        // params are the deep linked params associated with the link that the user clicked before showing up.
+//        NSLog(@"deep link data: %@", [params description]);
+//        
+//    }];
+    
     self.window.rootViewController = [TP_RootViewController new];
     
     [self.window makeKeyAndVisible];
     
     return YES;
 }
+
+//- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+//    
+//   return [[Branch getInstance] handleDeepLink:url];
+//    
+//}
+//
+//- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *))restorationHandler {
+//    
+//    return [[Branch getInstance] continueUserActivity:userActivity];
+//    
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

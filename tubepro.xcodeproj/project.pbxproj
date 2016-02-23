@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D99CCE32881F9373609EC82B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE41EE5A42572343075E5C3 /* libPods.a */; };
+		FC0B8AB61C55B98500362FF4 /* TP_Fourth_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B8AB41C55B98500362FF4 /* TP_Fourth_ViewController.m */; };
+		FC0B8AB71C55B98500362FF4 /* TP_Fourth_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0B8AB51C55B98500362FF4 /* TP_Fourth_ViewController.xib */; };
 		FC123DA41C4CCA5800CD8AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC123DA31C4CCA5800CD8AB3 /* main.m */; };
 		FC123DA71C4CCA5800CD8AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC123DA61C4CCA5800CD8AB3 /* AppDelegate.m */; };
 		FC123DAA1C4CCA5800CD8AB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC123DA91C4CCA5800CD8AB3 /* ViewController.m */; };
@@ -22,13 +24,20 @@
 		FC123DCC1C4CDA4200CD8AB3 /* TP_Third_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC123DCA1C4CDA4200CD8AB3 /* TP_Third_ViewController.m */; };
 		FC123DCD1C4CDA4200CD8AB3 /* TP_Third_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC123DCB1C4CDA4200CD8AB3 /* TP_Third_ViewController.xib */; };
 		FC123DD11C4CDB3700CD8AB3 /* UIViewController+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = FC123DD01C4CDB3700CD8AB3 /* UIViewController+Additional.m */; };
+		FC123DD31C4DD5D300CD8AB3 /* tubepro.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = FC123DD21C4DD47000CD8AB3 /* tubepro.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39134FCA81B19D744E4D5B38 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9EE41EE5A42572343075E5C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0976250662C8BA9BC9257B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		FC123D9F1C4CCA5800CD8AB3 /* tubepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tubepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC06726A1C4DE09B005DB874 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		FC06726C1C4DE0D6005DB874 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FC06726E1C4DE11D005DB874 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FC0B8AB31C55B98500362FF4 /* TP_Fourth_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TP_Fourth_ViewController.h; sourceTree = "<group>"; };
+		FC0B8AB41C55B98500362FF4 /* TP_Fourth_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TP_Fourth_ViewController.m; sourceTree = "<group>"; };
+		FC0B8AB51C55B98500362FF4 /* TP_Fourth_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TP_Fourth_ViewController.xib; sourceTree = "<group>"; };
+		FC123D9F1C4CCA5800CD8AB3 /* TubePro.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TubePro.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC123DA31C4CCA5800CD8AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC123DA51C4CCA5800CD8AB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC123DA61C4CCA5800CD8AB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +61,7 @@
 		FC123DCB1C4CDA4200CD8AB3 /* TP_Third_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TP_Third_ViewController.xib; sourceTree = "<group>"; };
 		FC123DCF1C4CDB3700CD8AB3 /* UIViewController+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additional.h"; sourceTree = "<group>"; };
 		FC123DD01C4CDB3700CD8AB3 /* UIViewController+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additional.m"; sourceTree = "<group>"; };
+		FC123DD21C4DD47000CD8AB3 /* tubepro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = tubepro.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,9 @@
 		A1F5DE04356664859E82018D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC06726E1C4DE11D005DB874 /* CoreFoundation.framework */,
+				FC06726C1C4DE0D6005DB874 /* MobileCoreServices.framework */,
+				FC06726A1C4DE09B005DB874 /* CoreSpotlight.framework */,
 				9EE41EE5A42572343075E5C3 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -86,7 +99,7 @@
 		FC123D961C4CCA5800CD8AB3 = {
 			isa = PBXGroup;
 			children = (
-				FC123DA11C4CCA5800CD8AB3 /* tubepro */,
+				FC123DA11C4CCA5800CD8AB3 /* TubePro */,
 				FC123DA01C4CCA5800CD8AB3 /* Products */,
 				562374B3F47ABE14CEB8B86F /* Pods */,
 				A1F5DE04356664859E82018D /* Frameworks */,
@@ -96,14 +109,15 @@
 		FC123DA01C4CCA5800CD8AB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC123D9F1C4CCA5800CD8AB3 /* tubepro.app */,
+				FC123D9F1C4CCA5800CD8AB3 /* TubePro.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC123DA11C4CCA5800CD8AB3 /* tubepro */ = {
+		FC123DA11C4CCA5800CD8AB3 /* TubePro */ = {
 			isa = PBXGroup;
 			children = (
+				FC123DD21C4DD47000CD8AB3 /* tubepro.entitlements */,
 				FC123DCE1C4CDB2200CD8AB3 /* Additional */,
 				FC123DBB1C4CD98900CD8AB3 /* ViewController */,
 				FC123DB91C4CCB4400CD8AB3 /* Default */,
@@ -114,6 +128,7 @@
 				FC123DB31C4CCA5800CD8AB3 /* Info.plist */,
 				FC123DA21C4CCA5800CD8AB3 /* Supporting Files */,
 			);
+			name = TubePro;
 			path = tubepro;
 			sourceTree = "<group>";
 		};
@@ -150,6 +165,9 @@
 				FC123DC91C4CDA4200CD8AB3 /* TP_Third_ViewController.h */,
 				FC123DCA1C4CDA4200CD8AB3 /* TP_Third_ViewController.m */,
 				FC123DCB1C4CDA4200CD8AB3 /* TP_Third_ViewController.xib */,
+				FC0B8AB31C55B98500362FF4 /* TP_Fourth_ViewController.h */,
+				FC0B8AB41C55B98500362FF4 /* TP_Fourth_ViewController.m */,
+				FC0B8AB51C55B98500362FF4 /* TP_Fourth_ViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -183,7 +201,7 @@
 			);
 			name = tubepro;
 			productName = tubepro;
-			productReference = FC123D9F1C4CCA5800CD8AB3 /* tubepro.app */;
+			productReference = FC123D9F1C4CCA5800CD8AB3 /* TubePro.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -197,10 +215,16 @@
 				TargetAttributes = {
 					FC123D9E1C4CCA5800CD8AB3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2A57FFFJMN;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = FC123D9A1C4CCA5800CD8AB3 /* Build configuration list for PBXProject "tubepro" */;
+			buildConfigurationList = FC123D9A1C4CCA5800CD8AB3 /* Build configuration list for PBXProject "TubePro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,6 +252,8 @@
 				FC123DB21C4CCA5800CD8AB3 /* LaunchScreen.storyboard in Resources */,
 				FC123DC31C4CDA0F00CD8AB3 /* TP_First_ViewController.xib in Resources */,
 				FC123DAF1C4CCA5800CD8AB3 /* Assets.xcassets in Resources */,
+				FC123DD31C4DD5D300CD8AB3 /* tubepro.entitlements in Resources */,
+				FC0B8AB71C55B98500362FF4 /* TP_Fourth_ViewController.xib in Resources */,
 				FC123DAD1C4CCA5800CD8AB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +317,7 @@
 				FC123DD11C4CDB3700CD8AB3 /* UIViewController+Additional.m in Sources */,
 				FC123DBE1C4CD9D000CD8AB3 /* TP_RootViewController.m in Sources */,
 				FC123DAA1C4CCA5800CD8AB3 /* ViewController.m in Sources */,
+				FC0B8AB61C55B98500362FF4 /* TP_Fourth_ViewController.m in Sources */,
 				FC123DC21C4CDA0F00CD8AB3 /* TP_First_ViewController.m in Sources */,
 				FC123DA71C4CCA5800CD8AB3 /* AppDelegate.m in Sources */,
 				FC123DC71C4CDA2900CD8AB3 /* TP_Second_ViewController.m in Sources */,
@@ -337,7 +364,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -359,6 +387,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8477a2b1-a4c1-4f2d-be83-1a8a4c9ca0ac";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -380,7 +409,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -395,6 +425,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8477a2b1-a4c1-4f2d-be83-1a8a4c9ca0ac";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -405,11 +436,17 @@
 			baseConfigurationReference = D0976250662C8BA9BC9257B1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tubepro/tubepro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = tubepro/PrefixHeader.pch;
 				INFOPLIST_FILE = tubepro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmg.tubepro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.vmgmedia.TubePro;
+				PRODUCT_NAME = TubePro.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "8477a2b1-a4c1-4f2d-be83-1a8a4c9ca0ac";
 			};
 			name = Debug;
 		};
@@ -418,18 +455,24 @@
 			baseConfigurationReference = 39134FCA81B19D744E4D5B38 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tubepro/tubepro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanh Hai Tran (N3994DUH8M)";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = tubepro/PrefixHeader.pch;
 				INFOPLIST_FILE = tubepro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmg.tubepro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.vmgmedia.TubePro;
+				PRODUCT_NAME = TubePro.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "8477a2b1-a4c1-4f2d-be83-1a8a4c9ca0ac";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC123D9A1C4CCA5800CD8AB3 /* Build configuration list for PBXProject "tubepro" */ = {
+		FC123D9A1C4CCA5800CD8AB3 /* Build configuration list for PBXProject "TubePro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC123DB41C4CCA5800CD8AB3 /* Debug */,

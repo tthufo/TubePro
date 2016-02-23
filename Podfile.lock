@@ -19,8 +19,7 @@ PODS:
   - Bolts/AppLinks (1.6.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.6.0)
-  - DAKeyboardControl (2.4.0)
-  - FBPLUGIN (0.1.9):
+  - FBPLUGIN (0.2.9):
     - ASIHTTPRequest (~> 1.8)
     - AVHexColor (~> 2.0)
     - FBSDKCoreKit (~> 4.4)
@@ -30,11 +29,11 @@ PODS:
     - SDWebImage (~> 3.7)
     - SVProgressHUD
     - Toast (~> 2.4)
-  - FBSDKCoreKit (4.9.0):
+  - FBSDKCoreKit (4.10.0):
     - Bolts (~> 1.5)
-  - FBSDKLoginKit (4.9.0):
+  - FBSDKLoginKit (4.10.0):
     - FBSDKCoreKit
-  - FBSDKShareKit (4.9.0):
+  - FBSDKShareKit (4.10.0):
     - FBSDKCoreKit
   - FontAwesomeKit (2.2.0):
     - FontAwesomeKit/Core (= 2.2.0)
@@ -51,49 +50,49 @@ PODS:
     - FontAwesomeKit/Core
   - FontAwesomeKit/Zocial (2.2.0):
     - FontAwesomeKit/Core
-  - Google-Mobile-Ads-SDK (7.6.0)
+  - GoogleMobileAds (7.6.0)
+  - hpple (0.2.0)
   - JSONKit-NoWarning (1.2)
   - MBProgressHUD (0.9.2)
-  - NSDate+TimeAgo (1.0.3)
   - Reachability (3.2)
-  - SDWebImage (3.7.4):
-    - SDWebImage/Core (= 3.7.4)
-  - SDWebImage/Core (3.7.4)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
   - SVProgressHUD (1.1.3)
   - Toast (2.4)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
   - XBExtension (0.3.9.1):
     - AVHexColor
     - FontAwesomeKit
     - MBProgressHUD
-  - XCDYouTubeKit (2.3.3)
 
 DEPENDENCIES:
-  - DAKeyboardControl (~> 2.4)
-  - FBPLUGIN (~> 0.1.9)
-  - Google-Mobile-Ads-SDK (~> 7.5)
-  - NSDate+TimeAgo (~> 1.0)
+  - FBPLUGIN (~> 0.2.9)
+  - GoogleMobileAds (~> 7.6)
+  - hpple (~> 0.2)
+  - SDWebImage (~> 3.7)
+  - UIActivityIndicator-for-SDWebImage (~> 1.2)
   - XBExtension (~> 0.3)
-  - XCDYouTubeKit (~> 2.3.3)
 
 SPEC CHECKSUMS:
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
   AVHexColor: 33e5e102f3b6f3acd002779183ee226e21870c28
   Bolts: f52a250053bb517ca874523c3913776359ab3def
-  DAKeyboardControl: 9d9bca22a5cc3c1d3cc61e24fbd208c3e84a3d2d
-  FBPLUGIN: 059f762e91f95eba1f2d4b7a4335b71bf577fefd
-  FBSDKCoreKit: c4f25d27949a6ac80206063804d12ad1c7879612
-  FBSDKLoginKit: d46210c3955d69337c61325327f486ca50a8661f
-  FBSDKShareKit: c2e0050cf7e8f1309b0da65b0bfebfcd66712a2b
+  FBPLUGIN: d0c6cbf2a623705265aa08539b5e60118a4c76c3
+  FBSDKCoreKit: 13bec8373fb3af94d44daf2aa1e0958687897fbd
+  FBSDKLoginKit: d3d4a2e9d31954deb00bfea964167a05ca1ea976
+  FBSDKShareKit: 54587b4624706ace1e810cf83412a918141f807a
   FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
-  Google-Mobile-Ads-SDK: 0290020329c61183c4685304264b73382bc49fb4
+  GoogleMobileAds: c2f4d3ef1be73d58ec25158addfde463636433a6
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
   JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  NSDate+TimeAgo: 416f55d2696d3744c313091c5a9280d47f8238fe
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
   XBExtension: 2751c0789c7ffa3d9940efcb65860994b54e6070
-  XCDYouTubeKit: 3d7a146c19e0364eac42559672a81bb273e32227
 
 COCOAPODS: 0.39.0
